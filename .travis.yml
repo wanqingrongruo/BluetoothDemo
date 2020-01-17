@@ -1,0 +1,20 @@
+language: objective-c
+os: osx
+osx_image: xcode11
+
+env:
+  matrix:
+    - TEST_TYPE=iOS
+-before_install:
+ - |
+    gem install xcpretty -N --no-ri --no-rdoc
+script:
+- |
+    ./setup.sh
+    set -o pipefail
+    xcodebuild clean test -project BluetoothDemo.xcodeproj -scheme BluetoothDemo -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1' -enableCodeCoverage YES | xcpretty
+after_success:
+    - sleep 5
+    - if [ "$TEST_TYPE" = iOS ]; then
+        bash <(curl -s https://codecov.io/bash)
+      fi
