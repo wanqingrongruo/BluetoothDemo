@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05B0AB824051A9100F8EDC5 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B0AB724051A9100F8EDC5 /* DeviceCell.swift */; };
 		E0E94AC823D195C3004D9A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E94AC723D195C3004D9A65 /* AppDelegate.swift */; };
 		E0E94ACA23D195C3004D9A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E94AC923D195C3004D9A65 /* ViewController.swift */; };
 		E0E94ACD23D195C3004D9A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E94ACB23D195C3004D9A65 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E05B0AB724051A9100F8EDC5 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 		E0E94AC423D195C3004D9A65 /* BluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E94AC723D195C3004D9A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E94AC923D195C3004D9A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E0E94AC723D195C3004D9A65 /* AppDelegate.swift */,
 				E0E94AC923D195C3004D9A65 /* ViewController.swift */,
+				E05B0AB724051A9100F8EDC5 /* DeviceCell.swift */,
 				E0E94ACB23D195C3004D9A65 /* Main.storyboard */,
 				E0E94ACE23D195C5004D9A65 /* Assets.xcassets */,
 				E0E94AD023D195C5004D9A65 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				E0E94ACA23D195C3004D9A65 /* ViewController.swift in Sources */,
 				E0E94AC823D195C3004D9A65 /* AppDelegate.swift in Sources */,
+				E05B0AB824051A9100F8EDC5 /* DeviceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
